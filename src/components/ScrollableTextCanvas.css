@@ -1,0 +1,59 @@
+.scroll-container {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow-y: scroll; /* Enables vertical scrolling */
+    background-image: linear-gradient(to right, #7c64e4, #b0a4ec); /* Gradient background */
+
+    
+}
+
+.canvas-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden; 
+    background-image: linear-gradient(to right, #7c64e4, #b0a4ec); /* Gradient background */
+
+canvas {
+    display: block; /* Removes unwanted space below the canvas */
+    width: 100%; /* Ensures canvas resizes horizontally */
+    height: 100%; /* Ensures canvas resizes vertically */
+    object-fit: cover; /* Ensures image covers the canvas and crops sides if needed */
+    object-position: center center; /* Keeps the image centered */
+    background-image: linear-gradient(to right, #7c64e4, #b0a4ec); /* Gradient background */
+
+}
+
+.scroll-content {
+    height: 6000px; /* Adjust as needed to match total frames */
+    background-image: linear-gradient(to right, #7c64e4, #b0a4ec); /* Gradient background */
+}
+
+/* Media queries for mobile devices */
+@media (max-width: 768px) {
+    .canvas-container {
+        width: 100%;
+        height: 100vh; /* Adjusts the canvas size to fit the viewport */
+        background-image: linear-gradient(to right, #7c64e4, #b0a4ec); /* Gradient background */
+ 
+    }
+
+    canvas {
+        object-fit: cover; /* Ensures image covers the canvas without stretching */
+        object-position: center center; /* Ensures the image remains centered */
+        background-image: linear-gradient(to right, #7c64e4, #b0a4ec); /* Gradient background */
+
+    }
+}
+
+/* Media query for devices with a higher pixel ratio */
+@media (max-width: 768px) and (max-device-pixel-ratio: 2) {
+    canvas {
+        object-fit: cover; /* Still maintaining image aspect ratio */
+        object-position: center center; /* Ensures image remains centered */
+        background-image: linear-gradient(to right, #7c64e4, #b0a4ec); /* Gradient background */
+    }
+}

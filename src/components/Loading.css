@@ -1,0 +1,12 @@
+.loading-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+   /* background-image: linear-gradient(to right, rgb(135, 135, 255) , rgb(144, 198, 255));*/  /* Dark background */
+    color: #fff; /* White text */
+    background-color: #fff;
+    font-size: 1.2rem;
+    font-family: Arial, sans-serif;
+}
