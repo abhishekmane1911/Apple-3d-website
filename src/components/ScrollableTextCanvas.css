@@ -16,7 +16,7 @@
     height: 100%;
     overflow: hidden; 
     background-image: linear-gradient(to right, #7c64e4, #b0a4ec); /* Gradient background */
-
+}
 canvas {
     display: block; /* Removes unwanted space below the canvas */
     width: 100%; /* Ensures canvas resizes horizontally */
