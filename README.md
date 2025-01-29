@@ -2,7 +2,7 @@
 
 ## Overview
 
-This is a visually stunning and interactive website showcasing Apple products using 3D animations and effects. The website begins with an engaging "Ed Build" element that, upon interaction, reveals a showcase of various Apple products. The site combines modern web technologies, including React, Framer Motion, and Three.js, to deliver a smooth, immersive user experience.
+This is a visually stunning and interactive website showcasing Apple products using 3D animations and effects. The website begins with an engaging "3d Build" element that, upon interaction, reveals a showcase of various Apple products. The site combines modern web technologies, including React, Framer Motion, Howl, and Spline to deliver a smooth, immersive user experience.
 
 ## Features
 
@@ -31,11 +31,12 @@ This is a visually stunning and interactive website showcasing Apple products us
 - **React**: Frontend framework for building interactive components.
 - **Framer Motion**: For smooth animations and transitions.
 - **Spline** : Used to create 3d animations
+- **Howl** : For sound effects
 ## Installation and Setup
 
 ### Prerequisites
 
-- React.js (v16 or above)
+- React.js 
 - npm or yarn
 
 ### Steps
@@ -101,14 +102,14 @@ apple-3d-website/
 |   |-- webimages/      # Background images
 |-- src/                # Source code
 |   |-- components/     # Reusable components
-        |-- Elements.tsx
-        |-- Loading.tsx
-        |-- ScrollableTextCanvas.tsx
-        |-- ScrollableTextCanvas.css
-        |-- TextOverlay.tsx
-        |-- TextOverlay.css
-        |-- Loading.css
-        |-- LandingScene.tsx        
+|        |-- Elements.tsx
+|        |-- Loading.tsx
+|        |-- ScrollableTextCanvas.tsx
+|        |-- ScrollableTextCanvas.css
+|        |-- TextOverlay.tsx
+|        |-- TextOverlay.css
+|        |-- Loading.css
+|        |-- LandingScene.tsx        
 |   |-- App.tsx         # Main application file
 |   |-- App.css
 |   |-- main.tsx
