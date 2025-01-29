@@ -88,10 +88,12 @@ The website is hosted on Vercel. To deploy:
 
 ### 1. **Landing Page**
 
-![Alt Text](assets/logo.png)
+![Alt Text](public/1.png)
 
 ### 2. **Product Showcase**
-![Alt Text](assets/logo.png)
+![Alt Text](public/2.png)
+![Alt Text](public/3.png)
+![Alt Text](public/4.png)
 
 
 ## Folder Structure
