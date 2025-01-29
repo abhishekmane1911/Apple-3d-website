@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import { Howl } from 'howler'; // Import Howler for audio
+import { Howl } from 'howler'; 
 import './TextOverlay.css';
 
 interface TextOverlayProps {
@@ -58,7 +58,7 @@ function TextOverlay({ currentFrame }: TextOverlayProps) {
     ];
     // Preload the sound effect
     const wordSFX = new Howl({
-        src: ['public/s2.mp3'], // Replace with your sound file
+        src: ['public/s2.mp3'], 
         volume: 0.2,
     });
 
